@@ -63,9 +63,6 @@ foreach ($testArr as $item) {
 </head>
 <body>
     <h1>UDP Package transfer emulation</h1>
-<!--    Professor Puss for a good mood-->
-    <img src="https://memegenerator.net/img/instances/33241354.jpg" alt="UDP Joke">
-<!--    -->
    <p>In Last 2 seconds: <?= $detector->getCurrentLoss();?></p>
    <p>All: <?= $detector->getAverageLoss();?></p>
 </body>
